@@ -1996,7 +1996,7 @@
 
 .pt-80,
 .py-80 {
-    padding-top: 80px
+    padding-top: 0px
 }
 
 .pt-85,
@@ -2543,7 +2543,7 @@
 }
 
 .pb-180 {
-    padding-bottom: 180px
+    padding-bottom: 7%
 }
 
 .pb-185,
