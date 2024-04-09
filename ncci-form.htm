@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Subscription Form</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    
+  </head>
+<body>
+   
+    <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+          <form action="ncci-form.php" method="POST">
+              <div class="formbold-steps">
+                  <ul>
+                      <li class="formbold-step-menu1 active">
+                          <span>1</span>
+                          Business Information
+                      </li>
+                      <li class="formbold-step-menu2">
+                          <span>2</span>
+                          Contact Information
+                      </li>
+                      <li class="formbold-step-menu3">
+                        <span>2</span>
+                        random Information
+                    </li>
+                      <li class="formbold-step-menu4">
+                          <span>3</span>
+                          Confirm
+                      </li>
+                      
+                      
+                  </ul>
+              </div>
+      
+              <div class="formbold-form-step-1 active">
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="cname" class="formbold-form-label"> Company Name </label>
+                      <input
+                      type="text"
+                      name="cname"
+                      placeholder="company"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="creg" class="formbold-form-label"> Company Reg. No </label>
+                      <input
+                      type="text"
+                      name="creg"
+                      placeholder="company"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="vatno" class="formbold-form-label"> Vat No: </label>
+                      <input
+                      type="text"
+                      name="vatno"
+                      placeholder="000"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="yrestablished" class="formbold-form-label"> Year Established </label>
+                      <input
+                      type="text"
+                      name="yrestablished"
+                      placeholder="1990"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="regtype" class="formbold-form-label"> Registration Type (CC, PTY, Etc)</label>
+                      <input
+                      type="text"
+                      name="regtype"
+                      placeholder="CC"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="paddress" class="formbold-form-label"> Physical Address </label>
+                      <input
+                      type="text"
+                      name="paddress"
+                      placeholder="Khomasdal"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="city" class="formbold-form-label"> City</label>
+                      <input
+                      type="text"
+                      name="city"
+                      placeholder="Windhoek"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="region" class="formbold-form-label"> Region </label>
+                      <input
+                      type="text"
+                      name="region"
+                      placeholder="Khomas"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="poaddress" class="formbold-form-label"> Postal Address</label>
+                      <input
+                      type="text"
+                      name="poaddress"
+                      placeholder="P.O Box"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="ophone" class="formbold-form-label"> Office Phone </label>
+                      <input
+                      type="text"
+                      name="ophone"
+                      placeholder="+261 00 00"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="website" class="formbold-form-label"> Website</label>
+                      <input
+                      type="text"
+                      name="website"
+                      placeholder="www.example.com"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="hcompany" class="formbold-form-label"> Head of Company </label>
+                      <input
+                      type="text"
+                      name="hcompany"
+                      placeholder="John Doe"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="title" class="formbold-form-label"> Title</label>
+                      <input
+                      type="text"
+                      name="title"
+                      placeholder=" "
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="anturnover" class="formbold-form-label"> Annual Turnover +/- </label>
+                      <input
+                      type="text"
+                      name="anturnover"
+                      placeholder="0"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="industry" class="formbold-form-label"> Industry/Sector </label>
+                      <input
+                      type="text"
+                      name="industry"
+                      placeholder=" "
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                
+                </div>
+
+                <div class="formbold-input-flex">
+
+                  <div>
+                    <label for="nemployees" class="formbold-form-label"> Total# of Employees </label>
+                    <input
+                    type="text"
+                    name="nemployees"
+                    placeholder="0"
+                    id="lastname"
+                    class="formbold-form-input"
+                    />
+                </div>
+                  <div>
+                      <label for="male" class="formbold-form-label"> Male </label>
+                      <input
+                      type="text"
+                      name="male"
+                      placeholder=" "
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                    <label for="fmale" class="formbold-form-label"> Female </label>
+                    <input
+                    type="text"
+                    name="fmale"
+                    placeholder=" "
+                    id="firstname"
+                    class="formbold-form-input"
+                    />
+                </div>
+                  
+                </div>
+
+
+
+
+        
+               
+                
+              </div>
+      
+              <div class="formbold-form-step-2">
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="mcname" class="formbold-form-label"> Main Contact name </label>
+                      <input
+                      type="text"
+                      name="mcname"
+                      placeholder=""
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="lastname" class="formbold-form-label"> Position </label>
+                      <input
+                      type="text"
+                      name="position"
+                      placeholder=""
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="mcname" class="formbold-form-label"> Office Phone </label>
+                      <input
+                      type="text"
+                      name="ophone"
+                      placeholder=""
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="lastname" class="formbold-form-label"> Cell Phone </label>
+                      <input
+                      type="text"
+                      name="position"
+                      placeholder=""
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="mcname" class="formbold-form-label"> email </label>
+                      <input
+                      type="text"
+                      name="email"
+                      placeholder="example@company.com"
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                 
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="scname" class="formbold-form-label"> Secondary Contact name </label>
+                      <input
+                      type="text"
+                      name="scname"
+                      placeholder=""
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                      <label for="lastname" class="formbold-form-label"> Position </label>
+                      <input
+                      type="text"
+                      name="position2"
+                      placeholder=""
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                </div>
+
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="mcname" class="formbold-form-label"> Phone Number </label>
+                      <input
+                      type="text"
+                      name="mcname"
+                      placeholder=""
+                      id="firstname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+                  <div>
+                     
+                    <label for="mcname" class="formbold-form-label"> E-mail </label>
+                      <input
+                      type="text"
+                      name="email2"
+                      placeholder="example@company.com"
+                      id="lastname"
+                      class="formbold-form-input"
+                      />
+                  </div>
+
+                
+
+               
+
+
+
+
+                </div>
+
+                <div class="formbold-input-flex">
+
+                  <div>
+                    <!-- Example split danger button -->
+                    <div class="dropdown">
+
+                      
+                      <label for="mcname" class="formbold-form-label"> Membership </label>
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Membership
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Micro Business <b>Annual Cost:</b>N$ 503.13  <b>VAT Included:</b>N$ 578.00</a></li>
+                        <li><a class="dropdown-item" href="#">Small Enterprise <b>Annual Cost:</b>N$ 1,875.00  <b>VAT Included:</b>N$ 2,156.25</a></li>
+                        <li><a class="dropdown-item" href="#">Medium-Sized Company <b>Annual Cost:</b>N$ 4,750.00  <b>VAT Included:</b>N$ 5,462.00</a></li>
+                        <li><a class="dropdown-item" href="#">Large Company <b>Annual Cost:</b>N$ 8,125.00  <b>VAT Included:</b>N$ 9,343.00</a></li>
+                        <li><a class="dropdown-item" href="#">Corporate <b>Annual Cost:</b>N$ 37,500.00  <b>VAT Included:</b>N$ 43,125.00</a></li>
+                        <li><a class="dropdown-item" href="#">National Corporate <b>Annual Cost:</b>N$ 81,250.00  <b>VAT Included:</b>N$ 93,437.00</a></li>
+                        <li><a class="dropdown-item" href="#">Associate Mmebers <b>Annual Cost:</b>N$ 12,500.00  <b>VAT Included:</b>N$ 14,375.00</a></li>
+                      </ul>
+                    </div>
+                        
+                </div>
+
+                
+                <div>
+                  <!-- Example split danger button -->
+                  <div class="dropdown">
+
+                    
+                    <label for="mcname" class="formbold-form-label"> Membership </label>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Status Membership
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>New Member</li>
+                      <li>Renewal</li>
+                       
+                    </ul>
+                  </div>
+                      
+               </div>
+
+            <div>
+                <label for="lastname" class="formbold-form-label"> Year Joined </label>
+                <input
+                type="text"
+                name="yrJoined"
+                placeholder=""
+                id="lastname"
+                class="formbold-form-input"
+                />
+            </div>
+            
+            </div>
+               
+               
+              </div>
+
+              <div class="formbold-form-step-3">
+                <div>
+                  <label for="message" class="formbold-form-label"> Message </label>
+                  <textarea
+                    rows="6"
+                    name="message"
+                    id="message"
+                    placeholder="Type your message"
+                    class="formbold-form-input"
+                  ></textarea>
+                </div>
+              </div>
+      
+              <div class="formbold-form-step-3">
+                <div class="formbold-form-confirm">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                  </p>
+      
+                  <div>
+                    <button class="formbold-confirm-btn active">
+                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="11" cy="11" r="10.5" fill="white" stroke="#DDE3EC"/>
+                      <g clip-path="url(#clip0_1667_1314)">
+                      <path d="M9.83343 12.8509L15.1954 7.48828L16.0208 8.31311L9.83343 14.5005L6.12109 10.7882L6.94593 9.96336L9.83343 12.8509Z" fill="#536387"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_1667_1314">
+                      <rect width="14" height="14" fill="white" transform="translate(4 4)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                      Yes! I want it.
+                    </button>
+      
+                    <button class="formbold-confirm-btn">
+                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="11" cy="11" r="10.5" fill="white" stroke="#DDE3EC"/>
+                      <g clip-path="url(#clip0_1667_1314)">
+                      <path d="M9.83343 12.8509L15.1954 7.48828L16.0208 8.31311L9.83343 14.5005L6.12109 10.7882L6.94593 9.96336L9.83343 12.8509Z" fill="#536387"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_1667_1314">
+                      <rect width="14" height="14" fill="white" transform="translate(4 4)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                      No! I don’t want it.
+                    </button>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="formbold-form-btn-wrapper">
+                
+                <button class="formbold-previous-btn">
+                  Previous
+                </button>
+                <button class="formbold-btn">
+                    Next Step
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1675_1807)">
+                    <path d="M10.7814 7.33312L7.20541 3.75712L8.14808 2.81445L13.3334 7.99979L8.14808 13.1851L7.20541 12.2425L10.7814 8.66645H2.66675V7.33312H10.7814Z" fill="white"/>
+                    </g>
+                    </svg>
+                </button>
+              </div>
+          </form>
+        </div>
+      </div>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          font-family: "Inter", sans-serif;
+        }
+        .formbold-main-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 48px;
+        }
+      
+        .formbold-form-wrapper {
+          margin: 0 auto;
+          max-width: 550px;
+          width: 100%;
+          background: white;
+        }
+      
+        .formbold-steps {
+          padding-bottom: 18px;
+          margin-bottom: 35px;
+          border-bottom: 1px solid #DDE3EC;
+        }
+        .formbold-steps ul {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          gap: 40px;
+        }
+        .formbold-steps li {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #536387;
+        }
+        .formbold-steps li span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #DDE3EC;
+          border-radius: 50%;
+          width: 36px;
+          height: 36px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #536387;
+        }
+        .formbold-steps li.active {
+          color: #07074D;;
+        }
+        .formbold-steps li.active span {
+          background: #A86D29;
+          color: #FFFFFF;
+        }
+      
+        .formbold-input-flex {
+          display: flex;
+          gap: 20px;
+          margin-bottom: 22px;
+        }
+        .formbold-input-flex > div {
+          width: 50%;
+        }
+        .formbold-form-input {
+          width: 100%;
+          padding: 13px 22px;
+          border-radius: 5px;
+          border: 1px solid #DDE3EC;
+          background: #FFFFFF;
+          font-weight: 500;
+          font-size: 16px;
+          color: #536387;
+          outline: none;
+          resize: none;
+        }
+        .formbold-form-input:focus {
+          border-color: #A86D29;
+          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+        }
+        .formbold-form-label {
+          color: #07074D;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+          display: block;
+          margin-bottom: 10px;
+        }
+      
+        .formbold-form-confirm {
+          border-bottom: 1px solid #DDE3EC;
+          padding-bottom: 35px;
+        }
+        .formbold-form-confirm p {
+          font-size: 16px;
+          line-height: 24px;
+          color: #536387;
+          margin-bottom: 22px;
+          width: 75%;
+        }
+        .formbold-form-confirm > div {
+          display: flex;
+          gap: 15px;
+        }
+      
+        .formbold-confirm-btn {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          background: #FFFFFF;
+          border: 0.5px solid #DDE3EC;
+          border-radius: 5px;
+          font-size: 16px;
+          line-height: 24px;
+          color: #536387;
+          cursor: pointer;
+          padding: 10px 20px;
+          transition: all .3s ease-in-out;
+        }
+        .formbold-confirm-btn {
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+        }
+        .formbold-confirm-btn.active {
+          background: #A86D29;
+          color: #FFFFFF;
+        }
+      
+        .formbold-form-step-1,
+        .formbold-form-step-2,
+        .formbold-form-step-3 {
+          display: none;
+        }
+        .formbold-form-step-1.active,
+        .formbold-form-step-2.active,
+        .formbold-form-step-3.active {
+          display: block;
+        }
+      
+        .formbold-form-btn-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          gap: 25px;
+          margin-top: 25px;
+        }
+        .formbold-back-btn {
+          cursor: pointer;
+          background: #FFFFFF;
+          border: none;
+          color: #07074D;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          display: none;
+        }
+        .formbold-back-btn.active {
+          display: block;
+        }
+        .formbold-previous-btn {
+          cursor: pointer;
+          background: #FFFFFF;
+          border: none;
+          color: #07074D;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .formbold-previous-btn.active {
+          display: block;
+        }
+        .formbold-btn {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 16px;
+          border-radius: 5px;
+          padding: 10px 25px;
+          border: none;
+          font-weight: 500;
+          background-color: #A86D29;
+          color: white;
+          cursor: pointer;
+        }
+        .formbold-btn:hover {
+          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+        }
+      
+      </style>
+
+      <script>
+        const stepMenuOne = document.querySelector('.formbold-step-menu1');
+        const stepMenuTwo = document.querySelector('.formbold-step-menu2');
+        const stepMenuThree = document.querySelector('.formbold-step-menu3');
+
+        const stepOne = document.querySelector('.formbold-form-step-1');
+        const stepTwo = document.querySelector('.formbold-form-step-2');
+        const stepThree = document.querySelector('.formbold-form-step-3');
+
+        const formSubmitBtn = document.querySelector('.formbold-btn');
+        const formBackBtn = document.querySelector('.formbold-back-btn');
+        const previousBtn = document.querySelector('.formbold-previous-btn');
+
+        formSubmitBtn.addEventListener("click", function(event){
+            event.preventDefault();
+            if(stepMenuOne.className == 'formbold-step-menu1 active') {
+                event.preventDefault();
+
+                stepMenuOne.classList.remove('active');
+                stepMenuTwo.classList.add('active');
+
+                stepOne.classList.remove('active');
+                stepTwo.classList.add('active');
+
+                formBackBtn.classList.add('active');
+                formBackBtn.addEventListener("click", function (event) {
+                    event.preventDefault();
+
+                    stepMenuOne.classList.add('active');
+                    stepMenuTwo.classList.remove('active');
+
+                    stepOne.classList.add('active');
+                    stepTwo.classList.remove('active');
+
+                    formBackBtn.classList.remove('active');
+
+                })
+
+            } else if(stepMenuTwo.className == 'formbold-step-menu2 active') {
+                event.preventDefault();
+
+                stepMenuTwo.classList.remove('active');
+                stepMenuThree.classList.add('active');
+
+                stepTwo.classList.remove('active');
+                stepThree.classList.add('active');
+
+                formBackBtn.classList.remove('active');
+                formSubmitBtn.textContent = 'Submit';
+            } else if(stepMenuThree.className == 'formbold-step-menu3 active') {
+                document.querySelector('form').submit();
+            }
+        });
+
+        previousBtn.addEventListener("click", function(event){
+            event.preventDefault();
+
+            if(stepMenuThree.className == 'formbold-step-menu3 active') {
+                stepMenuThree.classList.remove('active');
+                stepMenuTwo.classList.add('active');
+
+                stepThree.classList.remove('active');
+                stepTwo.classList.add('active');
+
+                formSubmitBtn.textContent = 'Next Step';
+            } else if(stepMenuTwo.className == 'formbold-step-menu2 active') {
+                stepMenuTwo.classList.remove('active');
+                stepMenuOne.classList.add('active');
+
+                stepTwo.classList.remove('active');
+                stepOne.classList.add('active');
+
+                previousBtn.classList.remove('active');
+                formSubmitBtn.textContent = 'Next Step';
+            }
+        });
+      </script>
+</body>
+</html>
